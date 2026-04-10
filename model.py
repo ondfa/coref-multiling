@@ -3,7 +3,7 @@ import torch.nn as nn
 from transformers import AutoConfig, AutoModel
 import util
 import logging
-from collections import Iterable
+from collections.abc import Iterable
 import numpy as np
 import torch.nn.init as init
 import higher_order as ho
